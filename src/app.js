@@ -16,7 +16,7 @@ app.use(helmet())
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Express Boilerplate!')
+    res.send('Artsy!')
 })
 
 app.use(function errorHandler(error, req, res, next) {
